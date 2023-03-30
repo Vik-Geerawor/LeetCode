@@ -1,4 +1,10 @@
 class Solution:
+    """
+    Write a function to find the longest common prefix string amongst an array 
+    of strings.
+    
+    If there is no common prefix, return an empty string "".
+    """
     def longestCommonPrefix(self, strs: list[str]) -> str:
         # length of first string
         common_prefix = []
